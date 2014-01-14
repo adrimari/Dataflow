@@ -1,0 +1,80 @@
+.typography h1,
+.typography h2,
+.typography h3 {
+	margin-top: 1.5em;
+	color: #2C5C89;
+}
+.typography h1 { font-size: 3em; }
+.typography h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #2C5C89;
+}
+.typography h3 { font-size: 1em; }
+.typography a {
+	text-decoration: underline;
+	color: #2C5C89;
+}
+.typography a:hover {
+	border: none;
+	text-decoration: none;
+}
+.typography h1 a,
+.typography h2 a,
+.typography h3 a {
+	border: none;
+	text-decoration: none;
+	color: #2C5C89;
+}
+.typography h1 a:hover,
+.typography h2 a:hover,
+.typography h3 a:hover {
+	background: none;
+	color: #2C5C89;
+}
+.typography #menu a {
+	display: block;
+	float: left;
+	height: 35px;
+	width: 115px;
+	margin-right: 1px;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 10px;
+	text-align: center;
+	background: url(../images/button.jpg) no-repeat
+}
+.typography #menu a:hover { color: #2C2E22; }
+.typography #logo h1 {
+	padding-top: 100px;
+	padding-left: 20px;
+	color: #ffffff;
+	font-size: 24px;
+}
+.typography #logo h2 {
+	font-style: italic;
+	font-size: 10px;
+	padding-left: 20px;
+}
+.typography #logo a { color: #FFFFFF; }
+.typography .sidebar li h2 { margin: 0 0 1em 0; }
+.typography #sidebar2 li h2 {
+	margin: 0 0 1em 0;
+	background: url(../images/title.jpg) no-repeat left top;
+	height: 35px;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 7px;
+}
+.typography #sidebar2 li a {
+	border: none;
+	padding-left: 10px;
+}
+.typography #sidebar2 li a:hover {
+	border: none;
+	padding-left: 10px;
+}
+.typography #footer a { color: #FFFFFF }
